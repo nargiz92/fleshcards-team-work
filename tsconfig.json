@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    // ...rest of the template
+    "types": ["node"],
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "jsx": "react-jsx"
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

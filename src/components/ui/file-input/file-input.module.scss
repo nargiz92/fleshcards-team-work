@@ -1,0 +1,13 @@
+.someUserPhotos {
+  height: 119px;
+  background-position: center;
+  background-size: cover;
+
+  &.isFullWidth {
+    width: 100%;
+  }
+}
+
+.containers {
+  margin: 25px 0;
+}

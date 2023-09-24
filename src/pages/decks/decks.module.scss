@@ -1,0 +1,52 @@
+.decksContainer {
+  margin: 0 auto;
+  padding: 0 36px;
+
+  .titleAndButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .settingsContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.modalContainer {
+  display: flex;
+  grid-gap: 25px 0;
+  flex-direction: column;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.iconButton {
+  cursor: pointer;
+
+  width: 23px;
+  height: 23px;
+  padding: 0;
+
+  background: transparent;
+  background-image: url("icons/play-circle-svgrepo-com.svg");
+  background-position: center;
+  background-size: cover;
+  border: none;
+}
+
+.iconSort {
+  background-position: center;
+  background-size: cover;
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
